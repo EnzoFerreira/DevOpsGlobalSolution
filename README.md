@@ -22,7 +22,11 @@ Após aceitar os termos do Oracle, faça o clone do repositorio
 ```
 git clone https://github.com/EnzoFerreira/DevOpsGlobalSolution
 ```
-Após o projeto ter sido importado, digite o seguinte comando no terminal na pasta onde o projeto está localizado: 
+Após o projeto ter sido importado, digite o seguinte comando no terminal cmd na pasta onde o projeto está localizado: 
+```
+mvn clean install
+``` 
+Após o projeto ter sido importado, inicie o docker compose com o comando abaixo: 
 ```
 docker-compose up
 ```
