@@ -21,5 +21,8 @@ container-registry.oracle.com/database/enterprise
 
 ## Arquitetura do Projeto
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+<p align="center">
+  <img src="https://github.com/EnzoFerreira/DevOpsGlobalSolution/assets/91428282/b9e91d1e-4186-44c9-8d7b-2889c70ffb29" alt="arquiteturaDoCloud" width="500">
+</p>
+
+
