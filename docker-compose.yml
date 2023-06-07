@@ -15,7 +15,7 @@ services:
 
   app:
     build:
-      context: C:\Users\ronal\Downloads\Global-main\Global-main
+      context: C:\Users\"Seu user"\DevOpsGlobalSolution
       dockerfile: Dockerfile
     ports:
       - 9090:8080
