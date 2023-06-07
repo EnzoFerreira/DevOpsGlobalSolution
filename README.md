@@ -26,7 +26,11 @@ Após o projeto ter sido importado, digite o seguinte comando no terminal cmd na
 ```
 mvn clean install
 ``` 
-Após o projeto ter sido importado, inicie o docker compose com o comando abaixo: 
+Logo após, abra o projeto em um editor de código e altere a linha 18 no arquivo docker-compose.yml
+```
+context: C:\Users\"Seu user"\DevOpsGlobalSolution
+```
+Após isso, inicie o docker compose normalmente com o comando abaixo: 
 ```
 docker-compose up
 ```
