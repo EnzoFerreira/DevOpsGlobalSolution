@@ -1,0 +1,30 @@
+version: '3'
+services:
+  oracle:
+    image: container-registry.oracle.com/database/enterprise
+    ports:
+      - 1522:1521
+    environment:
+      - ORACLE_SID=orcl
+      - ORACLE_PDB=RM93200
+      - ORACLE_PWD=170103
+    volumes:
+      - ./data:/opt/oracle/oradata
+    networks:
+      - oracle_network
+
+  app:
+    build:
+      context: C:\Users\ronal\Downloads\Global-main\Global-main
+      dockerfile: Dockerfile
+    ports:
+      - 9090:8080
+    depends_on:
+      - oracle
+    volumes:
+      - ./data:/data
+    networks:
+      - oracle_network
+
+networks:
+  oracle_network:
